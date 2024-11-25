@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+
+p {
+    background-color: rgb(162, 78, 98);
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    background-color: bisque;
+    width: 100%;
+    height: 600px;
+}
+
+.cajas div {
+    background-color: rgb(194, 156, 109);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center; /*Alinear texto al centro*/
+    padding: 10px;
+}
+
+.cajas{
+    flex-direction: row; /*Colocar en columnas o filas */
+    flex-wrap: wrap; /*Adapta las cajas de flex para pasar a la segunda fila*/
+    border: 1px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center
+   
+}
+
+div {
+    display: flex
+
+}
